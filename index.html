@@ -10,69 +10,67 @@
 
     <nav class="top">
         <div class="yup">
-            <h1>Libroteca</h1>
-            <img src="img/logo.png" alt="logo.png">
+            <h1>Libroteca <img src="img/logo.png" alt="logo.png"></h1>
         </div>
-      
+
         <div class="botones">
-            <button class="sesion">Inicio de sesión</button>
-            <button class="registro">Registro</button>
+            <button class="sesion"onclick ="alerta(this)">Inicio de sesión</button>
+            <button class="registro" onclick="alertados(this)">Registro</button>
         </div>
     </nav>
-  
+
     <main class="main">
         <ul class="main">
-            <li><img src="img/libro.png" alt="" >Elige tu libro</li>
-            <li><img src="img/check.png" alt="" >Revisa disponibilidad</li>
-            <li><img src="img/separalo.png" alt="" >Sepáralo</li>
-            <li><img src="img/shipping.png" alt="" >Recíbelo</li>
+            <li><img src="img/libro.png" alt="">Elige tu libro</li>
+            <li><img src="img/check.png" alt="">Revisa disponibilidad</li>
+            <li><img src="img/separalo.png" alt="">Sepáralo</li>
+            <li><img src="img/shipping.png" alt="">Recíbelo</li>
         </ul>
     </main>
 
 
     <nav class="celeste">
         <ul class="lista-dos">
-            <li class="orden"> <a href="http://"></a> Ficción </li>
-            <li class="orden"> <a href="http://"></a> Históricos </li>
-            <li class="orden"> <a href="http://"></a> Tecnología </li>
-            <li class="orden"> <a href="http://"></a> Autoayuda</li>
-            <li class="orden"> <a href="http://"></a> Poesía</li>
+            <li class="orden"><a href="#" onclick="lisa('Ficción')">Ficción</a>      </li>
+            <li class="orden"><a href="#" onclick="lisa('Históricos')">Históricos</a></li>
+            <li class="orden"><a href="#" onclick="lisa('Tecnología')">Tecnología</a></li>
+            <li class="orden"><a href="#" onclick="lisa('Autoayuda')">Autoayuda</a>  </li>
+            <li class="orden"><a href="#" onclick="lisa('Poesía')">Poesía</a>        </li>
         </ul>
     </nav>
 
-    <main>
-        <h1 class="libros">Todos los libros</h1>
-   
+    <nav>
+     <section class="book-section">
+        <h2 class="titulo"id="titulo">Todos los Libros</h2>
+        <div class="contenido">
+            <div class="nivea">
+                <img src="img/cien.jpg" alt="Cien Años de Soledad">
+                <h3 class="book-title" >Cien Años de Soledad</h3>
+                <p class="book-author" >Gabriel García Márquez</p>
+                <button class="rentar" onclick="color(this)">Rentar</button>
+            </div>
 
-    <div class="products">
-        <div class="product">
-            <div class="image"><img src="img/cien.jpg" alt=""></div>
-            <h2>Cien Años de Soledad</h2>
-            <h3> Gabriel García Marquéz</h3>
-            <button>Rentar</button>
+            <div class="nivea">
+                <img src="img/rayuela.jpg" alt="Rayuela" >
+                <h3 class="book-title" >Rayuela</h3>
+                <p class="book-author" >Julio Cortázar</p>
+                <button class="rentar"  onclick="color(this)">Rentar</button>
+            </div>
+
+            <div class="nivea">
+                <img src="img/travesuras.jpg" alt="Travesuras de la niña mala" id="imagen">
+                <h3 class="book-title" >Travesuras de la niña mala</h3>
+                <p class="book-author" >Mario Vargas Llosa</p>
+                <button class="rentar" onclick="color(this)">Rentar</button>
+            </div>
         </div>
-        <div class="product">
-            <div class="image"><img src="img/rayuela.jpg" alt=""></div>
-            <h2>Rayuela</h2>
-            <h3>Julio Cortázar</h3>
-            <button>Rentar</button>
-        </div>
-        <div class="product">
-            <div class="image"><img src="img/travesuras.jpg" alt=""></div>
-            <h2>Travesuras de la Niña Mala </h2>
-            <h3>Mario Vargas Llosa</h3>
-            <button>Rentar</button>
-        </div>
-    </main>
-        
+    </section>
+    </nav>
 
-        <footer>
-            <p class="final"> Todos los derechos reservados. Libroteca</p>
-        </footer>
-    
-
-
-   
-    
+    <footer>
+        <p class="final"> Todos los derechos reservados. Libroteca</p>
+    </footer>
+<script src="script.js"></script>
 </body>
+
 </html>
