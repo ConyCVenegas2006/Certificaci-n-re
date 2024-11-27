@@ -1,7 +1,5 @@
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;     
+    
 }
 
 body {
@@ -28,7 +26,34 @@ header {
  padding: 2%;
  
 }
+-------------
+.yup {
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: center;
 
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.top h1 {
+    margin-right: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: end;
+    height: 25px;
+    margin: 10px;
+    width: 50;
+}
+--------------
 .lista{
     list-style: none;
     display: flex;
@@ -44,10 +69,20 @@ main ul li{
     margin: 0 15px;
     justify-content: space-between;
 }
+main ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
 
 .celeste{
     background-color: #9fc5f8;
     display: flex;
+    margin-right: 20px;
+    justify-content: center;
 }
 
 .lista-dos{
@@ -59,9 +94,13 @@ main ul li{
 }
 
 .orden{
-    justify-content: space-between;
+    justify-content: space-around;
     display: flex;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    padding: 1em ;
+
 }
 
 .libros{
@@ -100,3 +139,6 @@ main ul li{
     padding: 1%;
 }
 
+.main img {
+    margin-right: 10px;
+}
