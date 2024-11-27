@@ -1,0 +1,102 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;     
+}
+
+body {
+    max-width: 100vw;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.navegacion{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 2%;
+ 
+}
+
+.lista{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: white;
+
+    
+}
+
+main ul li{
+
+    margin: 0 15px;
+    justify-content: space-between;
+}
+
+.celeste{
+    background-color: #9fc5f8;
+    display: flex;
+}
+
+.lista-dos{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    padding: 1%;
+}
+
+.orden{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.libros{
+    background-color: #dddddd;
+    text-align: center;
+    margin: 0 ;
+    padding: 2%;
+}
+
+.products { 
+    display: flex;
+    gap: 1vw;
+  
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    flex: 1;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.image {
+    
+    width: 1px;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.final{
+    background-color:#095394;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
